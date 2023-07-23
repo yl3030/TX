@@ -151,6 +151,12 @@ ul {
   background-color: #F9F9F9;
 }
 
+.header_lang_list a.active {
+  background-color: #F9F9F9;
+  color: #0064B2;
+  font-weight: 600;
+}
+
 .header_menu {
   width: 25px;
   height: 18px;

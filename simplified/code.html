@@ -11,14 +11,6 @@
     <link rel="stylesheet" href="../public/css/style.css">
     <title>正大数据</title>
 </head>
-<style>
-    body {
-        background-image: url(../public/img/home_bg.svg);
-        background-size: 38%;
-        background-position: 0 0;
-        background-repeat: no-repeat;
-    }
-</style>
 <body>
     <header class="header">
         <div class="container d-flex align-items-center justify-content-between">
@@ -27,7 +19,7 @@
                 <nav class="header_nav">
                     <ul class="d-lg-flex align-items-center">
                         <li>
-                            <a href="./index.html" class="active">
+                            <a href="./index.html">
                                 <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M17.1867 8.15752L10.0494 1.65412C9.73615 1.36862 9.26374 1.36865 8.95059 1.65409L1.81334 8.15755C1.56239 8.38622 1.4795 8.73855 1.6021 9.05512C1.72473 9.37169 2.02331 9.57622 2.3628 9.57622H3.50274V16.0921C3.50274 16.3505 3.71221 16.56 3.97056 16.56H7.88264C8.14099 16.56 8.35046 16.3505 8.35046 16.0921V12.1359H10.6497V16.0922C10.6497 16.3505 10.8591 16.56 11.1175 16.56H15.0294C15.2877 16.56 15.4972 16.3505 15.4972 16.0922V9.57622H16.6373C16.9768 9.57622 17.2754 9.37165 17.398 9.05512C17.5205 8.73852 17.4376 8.38622 17.1867 8.15752Z" fill="#1082DB"/>
                                     <path d="M15.375 2.37379H12.2333L15.8428 5.65585V2.84158C15.8428 2.58323 15.6334 2.37379 15.375 2.37379Z" fill="#1082DB"/>
@@ -73,7 +65,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="./code.html">
+                            <a href="./code.html" class="active">
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4.15451 13.721C4.36044 13.9503 4.65576 14.0818 4.96465 14.0818C5.23417 14.0818 5.49306 13.9822 5.69339 13.8018C6.13985 13.4001 6.17603 12.7094 5.77428 12.2624L2.83777 8.99996L5.77428 5.73702C6.17603 5.29056 6.13985 4.59986 5.69339 4.19811C5.4771 4.00338 5.19612 3.90224 4.90718 3.91982C4.61611 3.93523 4.34898 4.06243 4.15451 4.27845L0.561607 8.27099C0.187798 8.68654 0.187798 9.31338 0.561607 9.72953L4.15451 13.721Z" fill="#CFCFCF"/>
                                     <path d="M13.8455 4.27845C13.4438 3.83254 12.7539 3.79584 12.3066 4.19811C11.8602 4.59987 11.824 5.29057 12.2257 5.73754L15.1623 8.99997L12.2257 12.2629C11.824 12.7094 11.8602 13.4001 12.3066 13.8024C12.507 13.9822 12.7659 14.0818 13.0354 14.0818C13.3443 14.0818 13.6396 13.9503 13.8455 13.7215L17.4384 9.72898C17.8122 9.31339 17.8122 8.68655 17.4384 8.27099L13.8455 4.27845Z" fill="#CFCFCF"/>
@@ -99,8 +91,8 @@
                         <img src="../public/img/chevron-down.svg" alt="">
                     </div>
                     <ul class="header_lang_list">
-                        <li><a href="../traditional/index.html">繁體中文</a></li>
-                        <li><a href="./index.html" class="active">简体中文</a></li>
+                        <li><a href="../traditional/code.html">繁體中文</a></li>
+                        <li><a href="./code.html" class="active">简体中文</a></li>
                     </ul>
                 </div>
             </div>
@@ -113,111 +105,110 @@
     </header>
 
     <main class="main">
-        <div class="banner m-0">
-            <div class="banner_inner"><img src="../public/img/home_banner.png" alt=""></div>
-        </div>
-        <div class="home-intro">
-            <h1>正大数据技术分析软体</h1>
-            <p>
-                我们是透过金融创新的思维，集合海量金融数据及图型显示的方式，所产生的定量分析模组方便客户进行实时分析，并协助客户以该分析软体为基础客制化专属量化交易系统，让自动化策略交易变得更简单
-            </p>
-        </div>
-        <div class="home-content">
-            <div class="home-content_item k-line">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="home-content_pic"><img src="../public/img/home_pic_1_sim.png" alt=""></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="home-content_text">
-                                <h2>
-                                    k线 缺少了什么 ?<br>
-                                    5分 15分K  日K 固定时间分析 ?
-                                </h2>
-                                <p>
-                                    据传K线为200年前的日本白米商人所发明，如今我们依旧以k线理论及其延伸的各种指标进行技术分析 是否足以因应目前变化多端的金融交易市场?
-                                </p>
-                                <a href="" class="home-content_btn">来看看TXChart</a>
-                                <h3 class="home-content_slogan">
-                                    期货技术分析的突围<br>
-                                    金融创新转型战略
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="home-content_item strategy">
-                <div class="row">
-                    <div class="col-lg-6 order-lg-2 order-1">
-                        <div class="home-content_pic">
-                            <img class="d-lg-block d-none" src="../public/img/home_pic_2.png" alt="">
-                            <img class="d-lg-none" src="../public/img/home_pic_2_m.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1 order-2">
-                        <div class="home-content_text">
-                            <h2>
-                                你有属于适合自己的交易策略吗?
-                            </h2>
-                            <p>
-                                华尔街有个实验，找一只黑猩猩射飞镖选策略，结果绩效比专业人士报酬率还高，深思探讨问题，你该找大猩猩来帮忙?还是该付费订阅跟单所谓专业人士所提供的策略?..................................其实你还能有别的选择！
-                            </p>
-                            <a href="" class="home-content_btn">开启你的第一步</a>
-                            <h3 class="home-content_slogan">
-                                自己的策略<br>
-                                自己开发
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="home-content_item smart">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="home-content_pic">
-                            <img class="d-lg-block d-none" src="../public/img/home_pic_3.png" alt="">
-                            <img class="d-lg-none" src="../public/img/home_pic_3_m.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1 order-2">
-                        <div class="home-content_text">
-                            <h2>
-                                聪明的交易，两者是否应该兼容并行?
-                            </h2>
-                            <div class="home-content_smart code">
-                                <h4>程式交易</h4>
-                                <p>
-                                    坚守纪律，无主观情绪问题<br>执行高效率，无时间限制<br>避免下单失误问题
-                                </p>
-                                <p class="home-content_smart_num">01</p>
-                            </div>
-                            <div class="home-content_smart subject">
-                                <h4>主观交易</h4>
-                                <p>
-                                    灵活性高，能因应瞬息万变的市场变化
-                                </p>
-                                <p class="home-content_smart_num">02</p>
-                            </div>
-                            <a href="" class="home-content_btn">客制化 - 你的投资帮手</a>
-                            <h3 class="home-content_slogan">
-                                时间应该花在<br>
-                                更美好的事物上
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="home-light">
-            <div class="container">
-                <h2>
-                    点亮你的幸福人生<br>
-                    正大数据是你的最佳选择
+        <div class="banner">
+            <div class="banner_inner">
+                <img src="../public/img/code_banner.png" alt="">
+                <h2 class="banner_subtitle code-subtitle d-lg-block d-none">
+                    「专业、创新、挑战、细心」正大数据来自各领域的专业人才，<br>
+                    以创造性的思维，营造细致的使用者体验，<br>
+                    以丰富的金融客制化软体开发服务经验，<br>
+                    协助客户分析所欲达成之目标，并提出具体的解决方案。 <br>
+                    正大数据是您最好的选择
                 </h2>
+                <div class="banner_title">
+                    <h1>程式设计</h1>
+                </div>
             </div>
         </div>
+
+        <h2 class="banner_subtitle code-subtitle d-lg-none">
+            「专业、创新、挑战、细心」正大数据来自各领域的专业人才，<br>
+            以创造性的思维，营造细致的使用者体验，<br>
+            以丰富的金融客制化软体开发服务经验，<br>
+            协助客户分析所欲达成之目标，并提出具体的解决方案。 <br>
+            正大数据是您最好的选择
+        </h2>
+
+        <div class="code_content">
+            <div class="container">
+                <div class="code_content_item">
+                    <div class="code_content_pic">
+                        <img src="../public/img/code_pic_1.png" alt="">
+                    </div>
+                    <div class="code_content_text">
+                        <h3>Planning</h3>
+                        <h4>需求访谈/建议</h4>
+                        <p>依照客户的需求、范围、期望，提供完整、专业的系统建议事项</p>
+                        <div class="code_content_num">01</div>
+                    </div>
+                </div>
+                <div class="code_content_item">
+                    <div class="code_content_pic">
+                        <img src="../public/img/code_pic_2_sim.png" alt="">
+                    </div>
+                    <div class="code_content_text">
+                        <h3>Designing</h3>
+                        <h4>系统设计</h4>
+                        <div class="code_content_num">02</div>
+                    </div>
+                </div>
+                <div class="code_content_item">
+                    <div class="code_content_pic">
+                        <img src="../public/img/code_pic_3.png" alt="">
+                    </div>
+                    <div class="code_content_text">
+                        <h3>Implementing</h3>
+                        <h4>系统开发与实现</h4>
+                        <p>依照系统分析与系统设计结果，来进行系统开发</p>
+                        <div class="code_content_num">03</div>
+                    </div>
+                </div>
+                <div class="code_content_item">
+                    <div class="code_content_pic">
+                        <img src="../public/img/code_pic_4.png" alt="">
+                    </div>
+                    <div class="code_content_text">
+                        <h3>Testing</h3>
+                        <h4>系统测试</h4>
+                        <p>依照规划与测试文件实际进行测试作业与修正，做好最完善的品保作业，确认系统开发品质。</p>
+                        <div class="code_content_num">04</div>
+                    </div>
+                </div>
+                <div class="code_content_item">
+                    <div class="code_content_pic">
+                        <img src="../public/img/code_pic_5.png" alt="">
+                    </div>
+                    <div class="code_content_text">
+                        <h3>Releasing</h3>
+                        <h4>系统上线</h4>
+                        <p>依照系统规划进行上线作业；在系统上线后，并提供完善的系统瑕疵保固年限。</p>
+                        <div class="code_content_num">05</div>
+                    </div>
+                </div>
+                <div class="code_content_item">
+                    <div class="code_content_pic">
+                        <img src="../public/img/code_pic_6.png" alt="">
+                    </div>
+                    <div class="code_content_text">
+                        <h3>Supporting</h3>
+                        <h4>系统维护与支援</h4>
+                        <p>系统开发完毕后，可依客户需求，提供最完整且永续的系统服务。</p>
+                        <div class="code_content_num">06</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="code_life">
+            <img class="d-sm-block d-none" src="../public/img/code_pic_7.png" alt="">
+            <img class="d-sm-none" src="../public/img/code_pic_7_m.png" alt="">
+            <h3 class="code_life_text">
+                使用客制化程式交易系统<br>
+                实现你的美好生活
+            </h3>
+        </div>
+      
+
     </main>
 
     <footer class="footer">© 2023 by xxx股份有限公司</footer>
