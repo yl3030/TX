@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
 
 $primary-50: #EBF4FB;
 $primary-100: #72C1FF;
@@ -19,7 +19,8 @@ $linear: linear-gradient(to right, #0072CB, #102585);
 $transition: 0.3s;
 
 body {
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Sans TC', 'Noto Sans SC', sans-serif;
+    // font-family: 'Noto Sans TC', sans-serif;
     color: $gray-900;
 }
 

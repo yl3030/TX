@@ -215,6 +215,11 @@
             p {
                 font-size: 14px;
                 margin: 0;
+                text-align: center;
+                height: 42px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 &.green {
                     color: #139734;
                 }
